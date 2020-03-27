@@ -72,7 +72,10 @@ bool sudokusolver(int arr[][9],int i,int j,int n)
 }
 }
 int main()
-{
+{	cout<<"SUDOKU GAME "<<endl<<"Please enter the n for nXn sudoku"<<endl;
+	cout<<"Here we used a 9X9 sudoku as an example so please enter 9"<<endl;
+	int n;
+	cin>>n;
 	int mat[9][9]={
 			{0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
