@@ -4,7 +4,7 @@ using namespace std;
 bool canweplace( int arr[][9],int i,int j,int n, int num)
 {
 
-		for(int h=0;h<9;h++)
+		for(int h=0;h<n;h++)
 		{
 			if(arr[i][h]==num || arr[h][j]==num)
 			{
