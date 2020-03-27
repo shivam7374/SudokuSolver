@@ -35,9 +35,9 @@ bool canweplace( int arr[][9],int i,int j,int n, int num)
 bool sudokusolver(int arr[][9],int i,int j,int n)
 {
 	if(i==n){
-		for(int m=0;m<9;m++)
+		for(int m=0;m<n;m++)
 		{
-			for(int d=0;d<9;d++)
+			for(int d=0;d<n;d++)
 				{
 					cout<<arr[m][d]<<" ";
 				}	
@@ -54,7 +54,7 @@ bool sudokusolver(int arr[][9],int i,int j,int n)
 	}
 	
 	else{
-	for(int num=1;num<=9;num++)
+	for(int num=1;num<=n;num++)
 	{
 		if(canweplace(arr,i,j,n,num))
 		{
