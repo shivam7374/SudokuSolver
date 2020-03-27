@@ -17,9 +17,9 @@ bool canweplace( int arr[][9],int i,int j,int n, int num)
 	int sx=a*rn;
 	int sy=b*rn;
 
-		for(int u = sx;u<sx+3;u++)
+		for(int u = sx;u<sx+rn;u++)
 		{
-			for(int v=sy;v<sy+3;v++)
+			for(int v=sy;v<sy+rn;v++)
 			{
 				if(arr[u][v]==num)
 				{
