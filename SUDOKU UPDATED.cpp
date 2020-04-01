@@ -92,7 +92,11 @@ int main()
     cout<<"Enter the elements of sudoku to be solved with blank position as 0 "<<endl;
     cout<<"Please fill the sudoku row wise"<<endl;
     for(int i=0;i<n;i++){
-        
+        for(int j=0;j<n;j++)
+        {
+            cin>>mat[i][j];
+        }
+
     }
 	sudokusolver(mat,0,0,n);
 	return 0;
