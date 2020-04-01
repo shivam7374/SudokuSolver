@@ -34,7 +34,7 @@ bool canweplace( int arr[][9],int i,int j,int n, int num)
 }
 bool sudokusolver(int arr[][9],int i,int j,int n)
 {
-	if(i==n){
+	if(i==n){cout<<endl<<"THE SOLVED SUDOKU IS GIVEN BELOW"<<endl;
 		for(int m=0;m<n;m++)
 		{
 			for(int d=0;d<n;d++)
